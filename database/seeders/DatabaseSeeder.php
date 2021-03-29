@@ -32,7 +32,6 @@ class DatabaseSeeder extends Seeder
         $users = [
             [
                 'name' => 'User A',
-                'username' => 'user_a',
                 'email' => 'user_a@mail.com',
                 'password' => Hash::make(123456),
                 'photo' => 'user.jpg',
@@ -40,7 +39,6 @@ class DatabaseSeeder extends Seeder
             ],
             [
                 'name' => 'Admin A',
-                'username' => 'admin_a',
                 'email' => 'admin_a@mail.com',
                 'password' => Hash::make(123456),
                 'photo' => 'admin.jpg',
