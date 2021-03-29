@@ -31,18 +31,18 @@ class DatabaseSeeder extends Seeder
 
         $users = [
             [
-                'name' => 'User A',
-                'email' => 'user_a@mail.com',
-                'password' => Hash::make(123456),
-                'photo' => 'user.jpg',
-                'roles_id' => 2
-            ],
-            [
                 'name' => 'Admin A',
                 'email' => 'admin_a@mail.com',
                 'password' => Hash::make(123456),
                 'photo' => 'admin.jpg',
                 'roles_id' => 1
+            ],
+            [
+                'name' => 'User A',
+                'email' => 'user_a@mail.com',
+                'password' => Hash::make(123456),
+                'photo' => 'user.jpg',
+                'roles_id' => 2
             ],
         ];
 
